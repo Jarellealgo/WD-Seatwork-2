@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(145deg, #121212, #1e1e1e);
+  height: 100vh;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.glow-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #ff0000;
+  text-shadow: 0 0 8px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.glow-title:hover {
+  transform: scale(1.05);
+}
+
+.name-slot {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #ccc;
+}
+
+.editable-name {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 1px dashed #666;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hero-btn {
+  text-decoration: none;
+  color: #fff;
+  background: #444;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.hero-btn:hover {
+  background: #ff0000;
+  transform: translateY(-3px);
+  border-color: #ffffff;
+}
