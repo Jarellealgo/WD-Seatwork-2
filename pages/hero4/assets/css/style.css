@@ -124,7 +124,7 @@ header {
   font-style: italic;
   text-align: center;
   background-color: rgba(0, 255, 255, 0.05); /* slight tint */
-  background-image: url('/WD-Seatwork-2-ja/assets/img/medium-shot-people-playing-videogames.jpg'); /* optional */
+  background-image: url('/pages/hero4/assets/img/medium-shot-people-playing-videogames.jpg'); /* optional */
   background-size: cover;
   background-position: center;
 }

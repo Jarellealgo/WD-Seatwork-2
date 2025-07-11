@@ -10,9 +10,8 @@ body, html {
   color: #eee;
 }
 
-/* 🔽 Drop your image here */
 .background-wrapper {
-  background-image: url('/WD-Seatwork-2-ja/assets/img/privjet.jpg');
+  background-image: url('/pages/hero3/assets/img/privjet.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
